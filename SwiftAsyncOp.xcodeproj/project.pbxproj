@@ -25,12 +25,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		97DFBCE325A2122D0042781C /* SwiftAsyncOperation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAsyncOperation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97DFBCE325A2122D0042781C /* SwiftAsyncOp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAsyncOp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97DFBCE625A2122D0042781C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97DFBCEF25A212300042781C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97DFBCF225A212300042781C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97DFBCF425A212300042781C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		97DFBCF925A212310042781C /* SwiftAsyncOperationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAsyncOperationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97DFBCF925A212310042781C /* SwiftAsyncOpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAsyncOpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97DFBCFD25A212310042781C /* AsyncOperationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncOperationTests.swift; sourceTree = "<group>"; };
 		97DFBCFF25A212310042781C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97DFBD3725A213EC0042781C /* AsyncOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncOperation.swift; sourceTree = "<group>"; };
@@ -67,8 +67,8 @@
 		97DFBCE425A2122D0042781C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				97DFBCE325A2122D0042781C /* SwiftAsyncOperation.app */,
-				97DFBCF925A212310042781C /* SwiftAsyncOperationTests.xctest */,
+				97DFBCE325A2122D0042781C /* SwiftAsyncOp.app */,
+				97DFBCF925A212310042781C /* SwiftAsyncOpTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,9 +104,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		97DFBCE225A2122D0042781C /* SwiftAsyncOperation */ = {
+		97DFBCE225A2122D0042781C /* SwiftAsyncOp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97DFBD0D25A212310042781C /* Build configuration list for PBXNativeTarget "SwiftAsyncOperation" */;
+			buildConfigurationList = 97DFBD0D25A212310042781C /* Build configuration list for PBXNativeTarget "SwiftAsyncOp" */;
 			buildPhases = (
 				97DFBCDF25A2122D0042781C /* Sources */,
 				97DFBCE025A2122D0042781C /* Frameworks */,
@@ -116,14 +116,14 @@
 			);
 			dependencies = (
 			);
-			name = SwiftAsyncOperation;
+			name = SwiftAsyncOp;
 			productName = AsyncOperation;
-			productReference = 97DFBCE325A2122D0042781C /* SwiftAsyncOperation.app */;
+			productReference = 97DFBCE325A2122D0042781C /* SwiftAsyncOp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		97DFBCF825A212310042781C /* SwiftAsyncOperationTests */ = {
+		97DFBCF825A212310042781C /* SwiftAsyncOpTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97DFBD1025A212310042781C /* Build configuration list for PBXNativeTarget "SwiftAsyncOperationTests" */;
+			buildConfigurationList = 97DFBD1025A212310042781C /* Build configuration list for PBXNativeTarget "SwiftAsyncOpTests" */;
 			buildPhases = (
 				97DFBCF525A212310042781C /* Sources */,
 				97DFBCF625A212310042781C /* Frameworks */,
@@ -134,9 +134,9 @@
 			dependencies = (
 				97DFBCFB25A212310042781C /* PBXTargetDependency */,
 			);
-			name = SwiftAsyncOperationTests;
+			name = SwiftAsyncOpTests;
 			productName = AsyncOperationTests;
-			productReference = 97DFBCF925A212310042781C /* SwiftAsyncOperationTests.xctest */;
+			productReference = 97DFBCF925A212310042781C /* SwiftAsyncOpTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -157,7 +157,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 97DFBCDE25A2122D0042781C /* Build configuration list for PBXProject "SwiftAsyncOperation" */;
+			buildConfigurationList = 97DFBCDE25A2122D0042781C /* Build configuration list for PBXProject "SwiftAsyncOp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -170,8 +170,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				97DFBCE225A2122D0042781C /* SwiftAsyncOperation */,
-				97DFBCF825A212310042781C /* SwiftAsyncOperationTests */,
+				97DFBCE225A2122D0042781C /* SwiftAsyncOp */,
+				97DFBCF825A212310042781C /* SwiftAsyncOpTests */,
 			);
 		};
 /* End PBXProject section */
@@ -218,7 +218,7 @@
 /* Begin PBXTargetDependency section */
 		97DFBCFB25A212310042781C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 97DFBCE225A2122D0042781C /* SwiftAsyncOperation */;
+			target = 97DFBCE225A2122D0042781C /* SwiftAsyncOp */;
 			targetProxy = 97DFBCFA25A212310042781C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -407,7 +407,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftAsyncOperation.app/SwiftAsyncOperation";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftAsyncOp.app/SwiftAsyncOp";
 			};
 			name = Debug;
 		};
@@ -429,14 +429,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftAsyncOperation.app/SwiftAsyncOperation";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftAsyncOp.app/SwiftAsyncOp";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		97DFBCDE25A2122D0042781C /* Build configuration list for PBXProject "SwiftAsyncOperation" */ = {
+		97DFBCDE25A2122D0042781C /* Build configuration list for PBXProject "SwiftAsyncOp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97DFBD0B25A212310042781C /* Debug */,
@@ -445,7 +445,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97DFBD0D25A212310042781C /* Build configuration list for PBXNativeTarget "SwiftAsyncOperation" */ = {
+		97DFBD0D25A212310042781C /* Build configuration list for PBXNativeTarget "SwiftAsyncOp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97DFBD0E25A212310042781C /* Debug */,
@@ -454,7 +454,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97DFBD1025A212310042781C /* Build configuration list for PBXNativeTarget "SwiftAsyncOperationTests" */ = {
+		97DFBD1025A212310042781C /* Build configuration list for PBXNativeTarget "SwiftAsyncOpTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97DFBD1125A212310042781C /* Debug */,
