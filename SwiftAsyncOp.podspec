@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SwiftAsyncOp'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Swift basic class for asynchronous operation creation'
  
   s.homepage         = 'https://github.com/OrWest/SwiftAsyncOp/'

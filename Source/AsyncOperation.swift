@@ -1,6 +1,6 @@
 import Foundation
 
-public class AsyncOperation: Operation {
+open class AsyncOperation: Operation {
     enum State: String {
         case ready
         case executing
