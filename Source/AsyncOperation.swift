@@ -1,6 +1,6 @@
 import Foundation
 
-class AsyncOperation: Operation {
+public class AsyncOperation: Operation {
     enum State: String {
         case ready
         case executing
@@ -22,23 +22,23 @@ class AsyncOperation: Operation {
         }
     }
     
-    override var isReady: Bool {
+    public override var isReady: Bool {
         return state == .ready && super.isReady
     }
     
-    override var isExecuting: Bool {
+    public override var isExecuting: Bool {
         return state == .executing
     }
     
-    override var isFinished: Bool {
+    public override var isFinished: Bool {
         return state == .finished || isCancelled
     }
     
-    override var isAsynchronous: Bool {
+    public override var isAsynchronous: Bool {
         return true
     }
     
-    override func main() {
+    public override func main() {
         guard !isCancelled else {
             state = .finished
             print("Cancelled.")
@@ -49,12 +49,12 @@ class AsyncOperation: Operation {
         task()
     }
     
-    func task() {
+    open func task() {
         // Should be overwritten by subclass
         // When task is completed func finish() have to be called
     }
     
-    func finish() {
+    open func finish() {
         state = .finished
     }
 }
