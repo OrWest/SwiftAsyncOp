@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SwiftAsyncOp'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Swift basic class for asynchronous operation creation'
  
   s.homepage         = 'https://github.com/OrWest/SwiftAsyncOp/'
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/OrWest/SwiftAsyncOp.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '10.0'
-  s.source_files = 'Sources/*.swift'
+  s.source_files = 'Sources/SwiftAsyncOp/*.swift'
   s.swift_versions = '5.3'
  
 end
